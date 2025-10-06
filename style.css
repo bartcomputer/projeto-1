@@ -1,0 +1,111 @@
+/*-------------------------------------------------------- pag index -------------------------------------------------------- */
+ #b1{
+            margin: 0;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #181616;
+        } 
+      
+           
+       
+        .container{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+           
+
+        } 
+        .card{
+           
+            background-image: url(img/indexpablo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 300px;
+            height: 400px;
+            background-color: #000000;
+            padding: 15x;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 3px 3px 10px;
+            transition: transform 0.5s ease;
+        }
+        .card:hover {
+            transform: scale(1.1);
+
+        }
+        button{
+            width: 150px;
+            height: 80px;
+            background-color: #251e1ef4;
+            border: 10px;
+            border-radius: 10x;
+            box-shadow: 3px 3px 10px;
+        }
+        .card button:hover{
+            background-color: rgb(83, 81, 80);
+        }
+        a {
+            color: aliceblue; 
+            text-decoration: none;
+        font-family: sans-serif;
+         font-size: 20px;
+        }
+       #b1{
+    height: 100vh;
+    margin: 0;
+   background-image: url(img/Design\ sem\ nome\ \(1\).png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   
+}
+/*--------------------------------------------------------fim da pag index--------------------------------------------------------*/
+
+
+#b3{
+color: #00FAE1;
+}
+/*--------------------------------------------------------fim da pag o que e I.A--------------------------------------------------------*/
+
+    /*--------------------------------------------------------FIM DA PAG I.A--------------------------------------------------------*/
+   /*--------------------------------------------------------PAG HISTORIA--------------------------------------------------------*/
+    #b4{
+background-image: url(img/imagem\ de\ fundo\ pablo.jpg);
+color: white;
+font-size: 14px;
+background-repeat: no-repeat;
+background-size: cover;
+}  
+  #b7{
+    text-align: center;
+  }
+  #video{
+
+display: flex;
+justify-content: center;
+
+}
+#ft{
+ 
+    text-align: center;
+
+}
+#texto{text-align:left ;
+    color: black
+}
+#audio{
+    text-align: center;
+}
+#TEXTT{
+    position: absolute;
+            top: 50px;
+            color: white;
+
+text-align: center;
+display: flex;
+     
+}
+  /* --------------------------------------------------------FIM PAG HISTORIA--------------------------------------------------------*/
